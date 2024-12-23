@@ -1,0 +1,78 @@
+/* Section Styles */
+#category23 {
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-heading h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0011ff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .home-heading h3 img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Container & Row */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  /* Content Box Styles */
+  .content-box {
+    background: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .content-box h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .content-box p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Hover Effects */
+  .content-box:hover {
+    border-color: #0011ff;
+    box-shadow: 0 8px 16px rgba(0, 17, 255, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content-box {
+      margin-bottom: 20px;
+    }
+  
+    .row {
+      justify-content: center;
+    }
+  }
+  
+  
